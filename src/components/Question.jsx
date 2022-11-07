@@ -25,6 +25,9 @@ const Question = () => {
         Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
       </p>
       <h2>{currentQuestion.question}</h2>
+      <img src={currentQuestion.image}  />
+      <p>{currentQuestion.conti}</p>
+
       <div id="options-container">
         {currentQuestion.options.map((option) => (
           <Option

@@ -10,16 +10,16 @@ const data = [
     questions: [
       {
         question: "(UFF) Tem-se uma amostra gasosa formada por um dos seguintes compostos: CH4; C2H4; C2H6; C3H6 ou C3H8. Se 22 g dessa amostra ocupam o volume de 24,6 L à pressão de 0,5 atm e temperatura de 27 °C (Dado: R = 0,082 L .atm.K–1.mol–1), conclui-se que se trata do gás:",
-        image: "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
         options: ['a) etano.', 'b) metano.', 'c) propano.', 'd) propeno.', 'e) eteno.' ],
         answer: "c) propano.",
         
       },
       {
-        question: "(Enem/2014) Um método para determinação do teor de etanol na gasolina consiste em mistura volumes conhecidos de água e de gasolina em um frasco específico. Após agitar o frasco e aguardar um período de tempo, medem-se os volumes das duas fases imiscíveis que são obtidas: uma orgânica e outra aquosa. O etanol, antes miscível com a gasolina, encontra-se agora miscível com a água.",
-        options: ['a) a densidade dos líquidos.', 'b) o tamanho das moléculas.', 'c) o ponto de ebulição dos líquidos.', 'd) os átomos presentes nas moléculas.', 'e) o tipo de interação entre as moléculas.'],
-        answer: "e) o tipo de interação entre as moléculas.",
-        tip: "",
+        question: "O eugenol, membro da família dos fenilpropanóides, é um composto orgânico aromático presente no cravo, uma especiaria utilizada desde a antiguidade.",
+        image: "https://static.todamateria.com.br/upload/es/tr/estruturadoeugenol-0-cke.jpg?auto_optimize=low",
+        options: ['a) Álcool e éter', 'b) Fenol e éter', 'c) Álcool e éster', 'd) Fenol e éster', 'e) Álcool e hidrocarboneto'],
+        answer: "b) Fenol e éter",
+        tip: "O eugenol apresenta em sua cadeia funções orgânicas oxigenadas, ou seja, além dos átomos de carbono e hidrogênio, o oxigênio é um heteroátomo presente.A função orgânica fenol é caracterizada pela hidroxila (-OH) ligada a um anel aromático. Já na função éter, o oxigênio está localizado entre duas cadeias carbônicas.",
       },
       {
         question: "(Enem/2014) Alguns materiais poliméricos não podem ser utilizados para a produção de certos tipos de artefatos, seja por limitações das propriedades mecânicas, seja pela facilidade com que sofrem degradação, gerando subprodutos indesejáveis para aquela aplicação. Torna-se importante, então, a fiscalização, para determinar a natureza do polímero utilizado na fabricação do artefato. Um dos métodos possíveis baseia-se na decomposição do polímero para a geração dos monômeros que lhe deram origem.",
@@ -47,9 +47,18 @@ const data = [
         tip: "",
       },  {
         question: "(Centec-BA) Na estrutura representada a seguir, os carbonos numerados são, respectivamente:",
+        image: "https://static.todamateria.com.br/upload/hi/br/hibridacaodocarbono-cke.jpg?auto_optimize=low",
         options: ['a) sp2, sp, sp2, sp2, sp3.', 'b) sp, sp3, sp2, sp, sp4.', 'c) sp2, sp2, sp2, sp2, sp3.', 'd) sp2, sp, sp, sp2, sp3.', 'e) sp3, sp, sp2, sp3, sp4.'],
         answer: "c) sp2, sp2, sp2, sp2, sp3.",
         tip: "",
+      },
+      {
+        question: "(Enem/2019) Os hidrocarbonetos são moléculas orgânicas com uma série de aplicações industriais. Por exemplo, eles estão presentes em grande quantidade nas diversas frações do petróleo e normalmente são separados por destilação fracionada, com base em suas temperaturas de ebulição. O quadro apresenta as principais frações obtidas na destilação do petróleo em diferentes faixas de temperaturas.",
+        conti: "Na fração 4, a separação dos compostos ocorre em temperaturas mais elevadas porque:",
+        image: "https://static.todamateria.com.br/upload/qu/es/questaodequimicaorganicanoenem-0.jpg?auto_optimize=low",
+        options: ['a) suas densidades são maiores.', 'b) o número de ramificações é maior.', 'c) sua solubilidade no petróleo é maior.', 'd) as forças intermoleculares são mais intensas.', 'e) a cadeia carbônica é mais difícil de ser quebrada.'],
+        answer: "d) as forças intermoleculares são mais intensas.",
+        
       },
     ],
   },
@@ -57,35 +66,30 @@ const data = [
     category: "Hidrocarbonetos",
     questions: [
       {
-        question: "O que é Vanilla JavaScript?",
-        options: [
-          "JavaScript puro",
-          "Uma biblioteca JavaScript",
-          "Um framework JavaScript",
-          "Um compilador de JavaScript",
-        ],
-        answer: "JavaScript puro",
+        question: "O nome correto do hidrocarboneto ramificado, cuja fórmula está esquematizada a seguir é:",
+        image: "https://static.todamateria.com.br/upload/34/di/34dimetiloctano-cke.jpg",
+        options: ['a) 3,4-dietil-octeno', 'b) 3,4-dimetil-octano', 'c) 3,4-dietil-octano', 'd) 3,4-dipropil-octano', 'e) 3,4-dimetil-octeno'],
+        answer: "b) 3,4-dimetil-octano",
       },
       {
-        question: "Com qual instrução declaramos uma constante em JavaScript?",
-        options: ["const", "let", "var", "define"],
-        answer: "const",
+        question: "Uma planta medicinal utilizada para regular a glicemia é encontrada na região amazônica, sendo popularmente conhecida como pata-de-vaca. A espécie que funciona como uma “insulina vegetal” possui entre seus compostos químicos um alcano, cuja fórmula contém 74 átomos de hidrogênio. Portanto, o número de átomos de carbono presentes na cadeia carbônica é:",
+        options: ['a) 33', 'b) 34', 'c) 35', 'd) 36', 'e) 37'],
+        answer: "d) 36",
       },
       {
-        question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-        options: ["string", "number", "boolean", "float"],
-        answer: "float",
+        question: "(PUC-PR) Alcinos são hidrocarbonetos:",
+        options: ['a) alifáticos saturados.', 'b) alicíclicos saturados.', 'c) alifáticos insaturados com dupla ligação.', 'd) alicíclicos insaturados com tripla ligação.', 'e) alifáticos insaturados com tripla ligação.'],
+        answer: "e) alifáticos insaturados com tripla ligação.",
       },
       {
-        question: "Qual dos métodos a seguir seleciona um elemento?",
-        options: ["querySelector", "parseInt", "sort", "reduce"],
-        answer: "querySelector",
+        question: "(Unesp) O octano é um dos principais constituintes da gasolina, que é uma mistura de hidrocarbonetos. A fórmula molecular do octano é:",
+        options: ['a) C8H18', 'b) C8H16', 'c) C8H14', 'd) C12H24', 'e) C18H38'],
+        answer: "a) C8H18",
       },
       {
-        question:
-          "Qual destas propriedades da a quantidade de elementos de um array?",
-        options: ["qty", "length", "items", "index"],
-        answer: "length",
+        question: "(FATEC) O gás liquefeito de petróleo, GLP, é uma mistura de propano, C3H8, e butano, C4H10. Logo, esse gás é uma mistura de hidrocarbonetos da classe dos:",
+        options: ['a) alcanos.', 'b) alcenos.', 'c) alcinos.', 'd) cicloalcanos.', 'e) cicloalcenos.'],
+        answer: "a) alcanos.",
       },
     ],
   },
